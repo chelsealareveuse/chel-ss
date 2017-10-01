@@ -1,0 +1,313 @@
+body {
+    font-family: 'Shadows Into Light Two', 'Open Sans', sans-serif;
+    color: black;
+    background: yellowgreen;
+}
+a:hover {
+    text-decoration: none;
+}
+ header h1 {
+    font-size: 700%;
+}
+
+h1 a {
+    color: black;
+}
+
+h1 a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    background: url("Pictures/stock-vector-fresh-vegetable-and-green-leaf-salad-dish-411669601.jpg");
+}
+
+header h2 {
+    text-shadow: 1px 1px white;
+}
+#nav {
+    background: white;
+    font-size: 200%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    color: rgba(102,205,0,1);
+}
+
+.drop-down {
+    background: rgba(0,0,0,0.6);
+    color: white;
+    width: 14%;
+    height: 20em;
+    float: left;
+    padding-top: 1vw;
+    text-align: center;
+    font-size: 150%;
+    border: 3px solid white;
+    visibility: hidden;
+}
+
+#dropdown-1 {
+    margin-left: 4%;
+}
+
+#dropdown-2 {
+    margin-left: 2%;
+}
+
+#dropdown-3 {
+    margin-left: 2%;
+}
+
+#dropdown-4 {
+    margin-left: 2.5%;
+}
+
+#dropdown-5 {
+    margin-left: 2%;
+}
+
+#dropdown-6 {
+    margin-left: 2%;
+}
+
+.drop-down p:hover {
+    color: rgba(102,205,0,1);
+}
+
+
+#content {
+    background: url("Pictures/grass-close-up-wallpapers_10972_1920x1200.jpg");
+    background-attachment: fixed;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+#content a {
+    text-decoration: none;
+}
+
+.post {
+    background-color: rgba(255,255,255,0.5);
+    width: 70%;
+    margin: 5% auto;
+    padding: 1%;
+    border-radius: 3%;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 2%;
+     
+}
+
+.post a {
+    color: rgba(0,102,205,1);
+}
+
+.post a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.post h3 {
+    margin: auto;
+    margin-bottom: 1%;
+    font-size: 300%;
+    background: white;
+    padding: 1%;
+}
+
+.post img {
+    width: 50%;
+    border: 3px solid white;
+}
+
+#content-box{
+    width: 80em;
+    height: 50em;
+    margin: 10% auto;
+    background-color: white;
+    
+}
+
+.nav-buttons {
+    background-color: white;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+
+.slideshow-box {
+    background-color: white;
+    height: 40em;
+    width: 80%;
+    margin: 5% auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    overflow: scroll;
+}
+
+.slides {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    overflow-y: hidden;
+    padding: 0;
+}
+
+.mySlides {
+    width: 100%;
+    animation-name: slideshow-fade;
+    animation-duration: 2s;
+    position: relative;
+}
+
+.slides h1 {
+    margin-left: 5%;
+    color: white;
+}
+
+#slideshow-caption {
+    width: 100%;
+    height: 10%;
+    background: rgba(0,0,0,0.5);
+    margin: auto;
+    
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.slideshow-nav {
+    width: 10%;
+    height: 15%;
+    display: inline-block;
+    background: rgba(0,0,0,0.7);
+    position: relative;
+    top: -300px;
+    padding-top: 12px;
+    border: 1px solid black;
+}
+
+.slideshow-nav:hover {
+    background: white;
+    color: black;
+}
+
+.slideshow-nav h1 {
+    color: white;
+    padding-left: 35px;
+    background: red;
+    line-height: 0;
+}
+
+.slideshow-nav h1:hover {
+    color: black;
+}
+
+#left-arrow {
+    margin-left: 5%;
+}
+
+#right-arrow {
+    margin-left: 69.3%;
+}
+
+/* Animations */
+@keyframes slideshow-fade {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+/* Animations */
+
+
+/* BACK TO CHEL(SS) */
+#Back-To-Chel-SS {
+    width: 15vw;
+    height: 15vw;
+    background: rgba(42,220,203,0.8);
+    font-family: 'Syncopate', sans-serif;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 2vw;
+    border-radius: 100%;
+    z-index: 2;
+    position: fixed;
+    margin-left: -0.7%;
+    color: white;
+}
+
+#Back-To-Chel-SS p {
+   
+    margin: 0; 
+}
+
+#Back-To-Chel-SS span {
+    font-family: 'Monoton', cursive;
+}
+
+
+#Back-To-Chel-SS-Alt {
+        background: rgba(42,220,203,1);
+        width: 100%;
+        height: 30vw;
+        font-family: 'Syncopate', sans-serif;
+        text-align: center;
+        color: white;
+        padding-top: 2%;
+        display: none;
+}
+
+
+#Back-To-Chel-SS-Alt span {
+    font-family: 'Monoton', cursive;
+}
+
+#Back-To-Chel-SS-Alt p {
+    font-size: 9vw;
+}
+/* BACK TO CHEL(SS) */
+
+
+
+/* MOBILE SCREENS */
+@media  only screen and (max-width: 800px) {
+    .drop-down {
+        display: none;
+    }
+    
+    .post h3 {
+        text-align: center;
+    }
+    
+    .post img {
+        margin-left: 25%;
+    }
+    
+    .nav-buttons {
+    display: none;
+    }
+    
+    #Back-To-Chel-SS {
+        margin-top: -50%;
+        padding-top: 3vw;
+        z-index: 5 important;        
+    }
+}
+
+@media  only screen and (max-width: 500px) {
+    #Back-To-Chel-SS {
+        display: none;
+    }
+    
+    #Back-To-Chel-SS-Alt {
+        display: block;
+    }
+}
+/* MOBILE SCREENS */
