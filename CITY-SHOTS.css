@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Raleway');
+
+body::-webkit-scrollbar {
+                width: 0px;
+}
+
+#nav::-webkit-scrollbar {
+                width: 0px;       
+}
+
+#caption::-webkit-scrollbar {
+                width: 0px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#cover {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 5;
+    background: black;
+    bottom: 0vh;
+    display: none;
+}
+
+#cover a, #cover a:visited {
+    color: white;
+}
+
+#Canada {
+    background: url("http://www.canadiannaturephotographer.com/eastcoast_gallery2/eastcoast2_15.jpg");
+    background-size: cover;
+}
+
+#America {
+    background: url("http://static.boredpanda.com/blog/wp-content/uploads/2014/09/american-nature-photography-exhibit-wilderness-forever-smithsonian-14.jpg");
+    background-size: cover;
+}
+#UK {
+    background: url("https://www.naturettl.com/wp-content/uploads/2016/06/top-10-landscapes-uk-ross-hoddinott-12-900x600.jpg");
+    background-size: cover;
+}
+
+#France {
+    background: url("http://french-landscapes.com/frlb/large/ah110430004.jpg");
+    background-size: cover;
+}
+
+#Scandinavia {
+    background: url("https://www.demilked.com/magazine/wp-content/uploads/2014/12/norway-landscape-photography-scandinavian-nature-19.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#Austrailia {
+    background: url("https://paularnold.com.au/assets/image-cache/uploads/images/122089.9322c36d.jpg");
+    background-size: cover;
+}
+
+header {
+background: grey;
+text-align: center;
+height: 22em;
+font-family: 'Anton', sans-serif;
+
+}
+
+header a {
+    color: black;
+}
+
+header a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+header a:visted {
+    color: black;
+}
+
+
+
+
+header ul {
+    list-style: none;
+    margin-top: 3%;
+    font-size: 200%;
+    background: ;
+    padding: 0 2%;
+    overflow-y: scroll;
+    height: 44%;
+    position: relative;
+}
+
+
+
+header h1 {
+margin-top: 3%;
+font-size: 400%;
+}
+
+header h2 {
+margin-top: 2%;
+font-size: 300%;
+}
+
+#content {
+            padding: 5% 0;
+            background-color: rgba(255,255,255,0.4);
+            background-blend-mode:screen;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+#content img {
+    width: 100%;
+}
+
+.NYC .photo {
+    margin-bottom: 15em;
+}
+
+
+
+#content img {
+    
+    border: 1em solid black;
+}
+
+.photo {
+    height: 30em;
+    margin-bottom: 5%;
+
+}
+
+.cap {
+    display: none;
+}
+
+
+#photo-modal {
+    width: 80%;
+    margin: 2% auto;
+    background: ;
+    overflow-y: scroll;
+    font-family: sans-serif;
+    text-align: left;
+    position: relative;
+}
+
+#photo-modal img {
+    border: 0;
+    width: 80%;
+    float: left; 
+}
+
+#caption {
+    width: 20%;
+    background: grey;
+    float: left;
+    color: white;
+    font-size: 120%;
+    padding: 1%;
+    overflow-y: scroll;
+}
+
+#caption-2 {
+    height: 30%;
+    width: 80%;
+    background: grey;
+    margin: auto;
+    color: white;
+    font-size: 4vw;
+    padding: 3%;
+    box-sizing: border-box;
+    display: none;
+    overflow-y: scroll;
+    
+}
+
+
+#photo-modal::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    
+    header {
+        border: 1em solid black;
+    }
+    #nav {
+        background: white;
+    }
+    
+    #caption {
+        font-size: 2vw;
+    }
+    
+    #photo-modal {
+                height: 60%;
+                overflow-y: scroll;
+                
+                
+    }
+            
+    #photo-modal img {
+                float: none;
+                width: 100%;
+    }
+            
+    #caption {
+                display: none;
+    }
+            
+    #caption-2 {
+                display: block;
+    }
+}
+
+@media (min-width: 800px) {
+    header li a:hover {
+    border-bottom: 0.3em solid black;
+    }
+    
+    
+}
+

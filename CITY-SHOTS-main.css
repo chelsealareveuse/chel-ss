@@ -1,0 +1,284 @@
+        @font-face {
+                font-family: impact;
+                src: url(impact/LeagueGothic-Regular);
+            }
+                    
+            body::-webkit-scrollbar {
+                width: 0px;
+            }
+            body {
+                margin: 0;
+                font-family: impact;
+            }
+            
+            
+            .dark {
+                background: rgba(0,0,0,0.5);
+            }
+            
+            .light {
+                opacity: 0;
+            }
+            
+
+            a {
+            color: white;
+            }
+            
+            #header {
+                height: 100%;
+                width: 100%;
+                border: 4em solid rgba(255,255,255,1);
+                box-sizing: border-box;
+                position: fixed;
+                text-align: center;
+                
+                padding: 0;
+            }
+
+            .background-source {
+                color: white;
+                position: relative;
+                z-index: 1;
+                float: right;
+                margin-top: 27%;
+                margin-right:11.7%;
+        }
+            
+
+            #about-contact {
+                width: 10%;
+                height: 18%;
+                text-align: center;
+                background: ;
+                color: white;
+                position: fixed;
+                z-index: 1;
+                margin-left: 80%;
+                margin-top: 5%;
+                text-shadow: 0px 0px 10px black;
+            }
+            
+            #about-contact a {
+                text-decoration: none;
+                color: white;
+            }
+            
+            #about-contact a:visted {
+                color: white;
+            }
+            
+            #scroll {
+                width: 5%;
+                height: 37%;
+                position: fixed;
+                z-index: 1;
+                margin-left: 82.5%;
+                margin-top: 20%;
+            }
+            
+            .dots {
+                width: 2vw;
+                height: 2vw;
+                border-radius: 100%;
+                margin: 13% auto;
+                background: ;
+                border: 1px solid white;
+                box-shadow: 0px 0px 5px black;
+            }
+            
+            .dots:hover {
+                background: white;
+            }
+            
+            #title {
+                text-align: center;
+                position: fixed;
+                z-index: 1;
+                width: 30%;
+                height: 6%;
+                margin-left: 35%;
+                margin-top: 2%;
+                color: white;
+                font-size: 200%;
+                text-shadow: 0px 0px 10px black;
+            }
+            
+            .menu {
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                box-sizing: border-box;
+                
+            }
+            
+            .menu h1 {
+                background: ;
+                font-size: 700%;
+                color: white;
+               position: relative;
+                z-index: 1;
+                top: 2.25em;
+                width: 50%;
+                height: 25%;
+                margin: auto;
+                
+            }
+            
+            .menu a {
+                text-decoration: none;
+                color: white;
+            }
+            
+            .menu a:visited {
+                text-align: none;
+                color: white;
+            }
+            
+            #div1 {
+                background-color: red;
+                background: url("http://www.canadiannaturephotographer.com/eastcoast_gallery2/eastcoast2_15.jpg");
+                background-size: cover;  
+                
+            }
+            #div2 {
+                background: orange;
+                background: url("http://static.boredpanda.com/blog/wp-content/uploads/2014/09/american-nature-photography-exhibit-wilderness-forever-smithsonian-14.jpg");
+                background-size: cover;
+            }
+            
+            #div3 {
+                background: yellow;
+                background: url("https://www.naturettl.com/wp-content/uploads/2016/06/top-10-landscapes-uk-ross-hoddinott-12-900x600.jpg");
+                background-size: cover;
+                
+            }
+            
+            #div4 {
+                background: green;
+                background: url("http://french-landscapes.com/frlb/large/ah110430004.jpg");
+                background-size: cover;
+            }
+            
+            #div5 {
+                background: blue;
+                background: url("https://www.demilked.com/magazine/wp-content/uploads/2014/12/norway-landscape-photography-scandinavian-nature-19.jpg");
+                background-size: cover;
+                background-position: center;
+            }
+            
+            #div6 {
+                background: purple;
+                background: url("https://paularnold.com.au/assets/image-cache/uploads/images/122089.9322c36d.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+
+            /* BACK TO CHEL(SS) */
+    #Back-To-Chel-SS {
+    width: 15vw;
+    height: 15vw;
+    background: rgba(42,220,203,0.8);
+    font-family: 'Syncopate', sans-serif;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 2vw;
+    border-radius: 100%;
+    z-index: 10;
+    position: fixed;
+    box-sizing: border-box;
+    margin-left: 10%;
+    margin-top: 16%;
+    color: white;
+}
+
+#Back-To-Chel-SS p {
+   
+    margin: 0; 
+}
+
+#Back-To-Chel-SS span {
+    font-family: 'Monoton', cursive;
+}
+
+#Back-To-Chel-SS-Alt a {
+    text-decoration: none;
+}
+
+
+#Back-To-Chel-SS-Alt {
+        
+}
+
+#Back-To-Chel-SS-Alt p {
+    margin: 0;
+    
+}
+
+#Back-To-Chel-SS-Alt span {
+    
+    
+}
+
+
+
+/*MOBILE SCREENS */
+
+@media only screen and (max-width: 800px) {
+    #about-contact, #scroll, .background-source {
+        display: none;
+    }
+    
+    #header {
+        border: 0;
+    }
+    
+   .menu h1 {
+        font-size: 20vw;
+       background-color:;
+       width: 100%;
+        position: relative;
+      top: 50vh;
+    }
+    
+    #title  {
+        width: 100%;
+        background: ;
+        margin: 0;
+        height: 40%;
+    }
+    
+    .dark {
+        display: none;
+    }
+    
+    #Scand-text {
+         font-size: 15vw;
+    }
+    
+    #Back-To-Chel-SS {
+        display: none;
+       
+    }
+    
+    #Back-To-Chel-SS-Alt {
+        display: block;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width: 400px) {
+    
+    
+    .menu h1 {
+        position: relative;
+        top: 50vh;
+    }
+    
+    
+    
+    
+}
