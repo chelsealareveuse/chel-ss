@@ -1,0 +1,570 @@
+::selection {
+    background: red;
+}
+
+.red {
+    color: red;
+}        
+
+body::-webkit-scrollbar{
+    width: 0;
+}
+         
+body {
+    margin: 0;
+    width: 610%;
+    background: white;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+            
+            .big {
+                width: 100vw;
+                height: 100vh;
+                margin: 0;
+                box-sizing: border-box;
+                display: inline-block;
+                
+            }
+            
+            h4:hover {
+                color: red;
+            }
+
+            a {
+                text-decoration: none;
+            }
+            
+            header {
+                color: white;
+                width: 100%;
+                height: 12vh;
+                background: black;
+                z-index: 1;
+            }
+            
+            header h1 {
+                position: fixed;
+                margin: 0;
+                left: 44.5%;
+                font-family: 'Permanent Marker', cursive;
+            }
+            
+            header h2 {
+                position: fixed;
+                top: 7%;
+                margin: 0 0 0 48.5%;
+                font-family: 'Muli', sans-serif;
+            }
+                
+            header a {
+                color: white;
+            }
+
+
+            header a:visited {
+            color: white;
+            }
+            
+            #scroll {
+                width: 100%;
+                position: fixed;
+    
+              
+                box-sizing: border-box;
+               
+                background: red;
+                
+                padding: 0;
+            }
+
+
+            #scroll a {
+                color: white;
+            }
+            
+            .buttons {
+                width: 16%;
+                height: 10%;
+                background: ;
+                font-family: 'Muli', sans-serif;
+                box-sizing: border-box;
+                display: inline-block;
+                margin-left: 0;
+                padding: 0;
+                text-align: center;
+                
+            }
+            
+            .buttons:hover {
+                color: black;
+            }
+
+            .buttons h3 {
+                background:;
+                margin: 0;
+                padding: 0;
+                font-size: 2vw;
+                line-height: 2.3;
+            }
+            
+            #Sashimi {
+                width: 30vw;
+                height: 75vh;
+                background: rgba(0,0,0,0.8);
+                margin: 5% 1%;
+                float: left;
+                box-sizing: border-box;
+                text-align: center;
+                padding: 1%;
+                color: white;
+                border-radius: 5%;
+                overflow-y: scroll;
+                font-family: 'Muli', sans-serif;
+            }
+            
+            #Sashimi ul {
+                text-align: left;
+                list-style: circle inside;
+            }
+
+            #Sashimi h1 {
+                font-family: 'Permanent Marker', cursive;
+            }
+            
+            #Specials {
+                width: 30vw;
+                height: 75vh;
+                background: rgba(0,0,0,0.8);
+                float: left;
+                margin: 5% 1%;
+                z-index: 1;
+                box-sizing: border-box;
+                padding: 1%;
+                color: white;
+                border-radius: 5%;
+                overflow-y: scroll;
+                font-family: 'Muli', sans-serif;
+            }
+
+            #Specials h1, #Specials h2 {
+                text-align: center;
+            }
+            
+            #Specials h3, p {
+                position: relative;
+            }
+            
+            #Specials p {
+                
+                top: -3%;
+            }
+
+            #Specials ul {
+                text-align: left;
+                list-style: circle inside;
+            }
+
+
+            #Specials h1 {
+                font-family: 'Permanent Marker', cursive;   
+            }
+
+#Specials a, #Sashimi a {
+    color: white;
+}
+
+#Specials a:visited, #Sashimi a:visited {
+    color: white;
+}
+
+
+.front img:hover {
+        box-shadow: 0 0 5vw 0 black;
+    }
+
+.flipping {
+		transform: rotateY(180deg);
+}
+
+.flipper {
+	transition: 2s;
+	transform-style: preserve-3d;
+	position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.front, .back {
+	width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+    box-sizing: border-box;
+    
+}
+
+.front {
+    z-index: 2;
+    transform: rotateY(0deg);
+}
+
+.front img {
+    width: 100%;
+    
+}
+
+.back {
+	transform: rotateY(180deg);
+    padding: 3%;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+    overflow-y: scroll;
+    color: transparent;
+}
+
+
+.back h1 {
+    text-align: center;
+    
+}
+
+.back a {
+    color: transparent;
+}
+
+
+
+#Sashimi a:visited, #Specials a:visited {
+    color: white;
+}
+
+
+.flip-container {
+    float: left;
+}
+
+#Chirashizushi-flip-container {
+    width:  35vw;
+    height: 35vw;
+    background: ;
+    margin: 5% 0;
+    padding: 0;
+    z-index: 0;
+    border: 0;
+}
+
+#Chirashizushi-flip-container img {
+    border-radius: 100%;
+}
+
+#Inarizsushi-flip-container {
+    width:  35vw;
+    height: 35vw;
+    background: ;
+    margin: 5% 35%;
+    padding: 0;
+    z-index: 0;
+    border: 0;
+    
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+#Inarizsushi-flip-container img {
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+#Makizsushi-flip-container {
+    width: 35vw;
+    height: 35vw;
+    padding: 0;
+    z-index: 0;
+    border: 0;
+    border-radius: 100%;
+    position: relative;
+    top: 10%;
+}
+
+#Makizsushi-flip-container img {
+    border-radius: 100%;
+}
+
+#Narezushi-flip-container {
+    width: 60vw;
+    height: 60vh;
+    padding: 0;
+    margin: 9% 20%;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+#Narezushi-flip-container img {
+    height: 100%;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+
+#Nigirizushi-flip-container {
+    width: 36vw;
+    height: 30vw;
+    margin: 8% 0%;
+    border-top-right-radius: 200%;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    float: left;
+    padding: 0;
+}
+
+#Nigirizushi-flip-container img {
+    border-top-right-radius: 200%;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    height:100%;
+}
+
+#Oshizushi-flip-container {
+    width: 35vw;
+    height: 35vw;
+    margin: 5.5% 32%;
+    padding: 0;
+}
+
+#Oshizushi-flip-container img {
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    *::-webkit-scrollbar {
+        width: 0;
+    }
+    .front img:hover {
+        box-shadow: none;
+    }
+    
+    #Specials::-webkit-scrollbar {
+        width: 0;
+    }
+    
+    #Sashimi::-webkit-scrollbar {
+        width: 0;
+    }
+    
+    #scroll {
+        display: none;
+    }
+    
+    body {
+        width: 100%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    
+     .big{
+        border-bottom: 1vw groove black;
+        background-image: linear-gradient(red, white), url("https://previews.123rf.com/images/bonsai/bonsai0907/bonsai090700005/5142784-decorative-bamboo-texture-Stock-Photo-wood.jpg");
+        background-blend-mode: multiply;
+        background-attachment: fixed;
+        box-sizing: border-box;
+        padding: 0;
+    }
+    
+    header {
+        text-align: center;
+        
+        width: 100vw;
+    }
+    
+    header h1, header h2 {
+        position: static;
+        margin: 0;
+    }
+    
+    header h1 {
+        
+    }
+    
+    
+    
+    #Chirashizushi-flip-container  {
+        margin-top: 20%;
+        
+    }
+    
+    #Inarizsushi-flip-container {
+        width: ;
+    }
+    
+    #Makizsushi-flip-container {
+        margin-top: 10%;
+    }
+    
+    #Narezushi-flip-container {
+        width: 80vw;
+        height: 80vh;
+        margin: 8% 13%;
+    }
+    
+    #Inarizsushi-flip-container {
+        width: 60vw;
+        height: 60vw;
+        margin: 10% 20%;
+    }
+    
+    #Nigirizushi-flip-container {
+        margin-top: 25%;
+    }
+    
+    #Oshizushi-flip-container {
+        width: 60vw;
+        height: 60vw;
+        margin: 10% 20%;
+    }
+    
+    #Specials, #Sashimi {
+        height: 100%;
+        margin: 0%;
+        border-radius: 0;
+    }
+    
+    
+    
+    #Specials {
+        width: 34vw;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    header {
+        height: 15vh;    
+    }
+    
+    #Specials, #Sashimi {
+        display: none;
+    }
+    
+
+    
+    #Chirashizushi-flip-container {
+        margin: 5.5% 15%; 
+        height: 70vw;
+        width: 70vw;
+
+    }
+    
+    #Makizsushi-flip-container {
+        margin: 0 15%;
+        height: 70vw;
+        width: 70vw;
+    }
+    
+    #Nigirizushi-flip-container {
+        margin: 11% 14%;
+        width: 72vw;
+        height: 60vw;
+    }
+    
+    #Oshizushi-flip-container {
+        width: 75vw;
+        height: 75vw;
+        margin: 3.5% 13%;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    
+    #Chirashizushi-flip-container {
+        margin: 14% 15%; 
+    }
+    
+    #Inarizsushi-flip-container {
+        margin: 19% 20%;
+    }
+    
+    #Makizsushi-flip-container {
+        margin: 5% 15%;
+    }
+
+    #Narezushi-flip-container {
+        width: 90vw;
+        height: 70vh;
+        margin: 14.5% 5%;
+    }
+    
+    #Nigirizushi-flip-container {
+        margin: 14% 9%;
+        width: 82vw;
+        height: 70vw;
+    }
+    
+    #Oshizushi-flip-container {
+        width: 75vw;
+        height: 75vw;
+        margin: 45% 13%;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+ 
+    #Narezushi-flip-container {
+        width: 90vw;
+        height: 50vh;
+        margin: 14.5% 5%;
+    }
+}
+
+
+@media only screen and (max-width: 300px) {
+    
+    #Chirashizushi-flip-container {
+        margin: 48% 15%; 
+    }
+    
+    #Inarizsushi-flip-container {
+        margin: 53% 20%;
+    }
+    
+    #Makizsushi-flip-container {
+        margin: 30% 15%;
+    }
+    
+    
+    #Narezushi-flip-container {
+        width: 90vw;
+        height: 40vh;
+        margin: 50% 5%;
+    }
+    
+    #Nigirizushi-flip-container {
+        margin: 48% 10%;
+        width: 82vw;
+        height: 70vw;
+    }    
+    
+
+}
+
+
+@media only screen and (max-width: 250px) {
+    
+    #Narezushi-flip-container {
+        width: 90vw;
+        height: 30vh;
+        margin: 14.5% 5%;
+    }
+}

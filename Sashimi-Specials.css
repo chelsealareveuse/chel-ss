@@ -1,0 +1,66 @@
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+::selection {
+    background: red;
+}
+
+            body {
+                margin: 0;    
+            }
+            
+            header {
+                height: 15vw;
+                width: 100%;
+                background: red;
+                color: white;
+                text-align: center;
+            }
+
+            header a {
+                color: white;
+                text-decoration: none;
+            }
+
+            header a:visted {
+                color: white;
+            }
+            
+            header h1 {
+                margin: 0;
+                font-family: 'Permanent Marker', cursive;
+                text-shadow: 0vw 1vw 0vw black;
+                font-size: 6vw;
+            }
+            header h2 {
+                margin: 0;
+                font-family: 'Muli', sans-serif;
+                text-shadow: 0vw 0.4vw 0vw black;
+                font-size: 4vw;
+            }
+            
+            .descriptions {
+                width: 100%;
+                background: black;
+                color: white;
+                border: 2vw groove grey;
+                padding: 2%;
+                box-sizing: border-box;
+                font-family: 'Muli', sans-serif;
+                
+            }
+            
+            .descriptions h1 {
+                margin: 0;
+                font-family: 'Permanent Marker', cursive;
+            }
+
+            .descriptions h3 {
+                margin: 0;
+            }
+
+            .descriptions p {
+                margin: 1vh 0;
+            }
+            

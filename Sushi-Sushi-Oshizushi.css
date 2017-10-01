@@ -1,0 +1,97 @@
+.shadow {
+    box-shadow: 0 0 3em black;
+}
+
+#Oshizushi {
+   z-index: 0;
+    border-right: 0.5em solid black;
+    box-sizing: border-box;   
+}
+
+#inner {
+    width: 80%;
+    height: 80%;
+    border-bottom: 0.5em solid black;
+    border-left: 0.5em solid black;
+    position: relative;
+    top: 20%;
+    z-index: 0;
+    box-sizing: border-box;
+    background: linear-gradient(white 45%, red 10%, white 55%);
+    border-right: 0.5em solid black;
+    
+}
+
+#line {
+    width: 0.5em;
+    height: 10em;
+    background: white;
+    position: relative;
+    bottom: 40%;
+    left: 29.5em;
+    z-index: 1;
+}
+
+#top {
+    width: 24em;
+    height: 6em;
+    background: yellow;
+    position: relative;
+    bottom: 24.0em;
+    z-index: 1;
+    box-sizing: border-box;
+    transform: skew(-45deg);
+    margin: auto;
+    border: 0.5em solid black;
+    background: repeating-linear-gradient(to top, #E27501,#E9B46C, #E5AC38 40%);
+}
+
+#bottom {
+     width: 24em;
+    height: 6em;
+    background: ;
+    position: relative;
+    bottom: 20%;
+    z-index: 1;
+    box-sizing: border-box;
+    opacity: 1;
+    transform: skew(-45deg);
+    margin: auto;
+    border-right: 0.5em solid black;
+    
+}
+
+#redline {
+    width: 6em;
+    height: 3em;    
+    background:linear-gradient(red, white);
+    position: relative;
+    bottom: 98.2%;
+    left: 23.5em;
+    transform: rotate(-0deg);
+    z-index: -1;
+}
+
+#triangle {
+   width: 0;
+    height: 0em;
+    position: relative;
+    border-bottom: 3em solid white;
+    border-left: 6em solid transparent;
+    bottom: 108%;
+    left: 23.5em;
+    z-index: -1;   
+}
+
+
+
+
+
+#Oshizushi-flip-container {
+    width: 30em;
+    height: 30em;
+    background: ;
+    margin: auto;
+    position: relative;
+    top: 8%;
+}
