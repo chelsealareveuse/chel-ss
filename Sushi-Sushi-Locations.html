@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Sushi, Sushi Sushi, Sushi Sushi Locations">
+        
+        <title>Sushi Sushi || Locations</title>
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+        <style>
+            
+            body {
+                background: black;
+            }
+            
+            a {
+                text-decoration: none;
+            }
+            
+            a:visited {
+                color: white;
+            }
+            body {
+                margin: 0;
+            }
+            
+            header {
+                width: 100%;
+                height: 13vh;
+                background: black;
+                color: white;
+                text-align: center;
+            }
+            
+            header h1 {
+                margin: 0;
+                font-family: 'Permanent Marker', cursive;
+            }
+            
+            header h2 {
+                margin: 0;
+                font-family: 'Muli', sans-serif;
+            }
+            
+            #content {
+                width: 100%;
+                height: 100vh;
+                background: red;
+                margin: 0;
+                box-sizing: border-box;
+                
+            }
+            
+            #content h3 {
+                margin: 0;
+            }
+            
+            #notice {
+                width: 20%;
+                background: white;
+                margin: 0 1%;
+                position: relative;
+                top: 5%;
+                float: left;
+                border-radius: 5%;
+                padding: 1%;
+                text-align: center;
+                box-sizing: border-box;
+                font-family: 'Muli', sans-serif;
+               
+            }
+            
+            #notice:hover {
+                box-shadow: 0 0 0 0.3em;
+            }
+            
+            #notice h3 {
+                font-size: 2vw;
+            }
+            
+            iframe {
+             height: 100%;
+             width: 78%;
+             float: left;
+            }
+            
+            #notice-2 {
+                margin: 0;
+                width: 100%;
+                height: 20%;
+                background: white;
+                padding: 1%;
+                text-align: center;
+                box-sizing: border-box;
+                font-family: 'Muli', sans-serif;
+                border: 1vw solid red;
+                display: none;
+            }
+            
+            
+            
+            @media only screen and (max-width: 800px) {
+                
+                header {
+                    height: 15vh;
+                }
+                
+                #notice {
+                    display: none;
+                }
+                
+                iframe {
+                    width: 100%;
+                    float: none;
+                    margin: 0;
+                }
+                
+                #notice-2 {
+                    display: block;
+                }
+            }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <a href="Sushi-Sushi.html"><h1>Sushi Sushi</h1></a>
+            <a href="Sushi-Sushi-Locations.html"><h2>Locations</h2></a>
+        </header>
+        
+        <div id="content">
+            
+            <div id="notice">
+                <h3>Notice: For now we are only serving the Washington D.C. Metro Area. We plan on expanding our radius as business grows. Thank you.</h3>
+            </div>
+            
+            
+            <iframe width="" height="" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=Washington%2C%20DC%2C%20United%20States&key=AIzaSyBsjqeo-L8eVRhshVS4eiR4j1Kk4t-tnyA" allowfullscreen></iframe>
+            
+            <div id="notice-2">
+                <h3>Notice: For now we are only serving the Washington D.C. Metro Area. We plan on expanding our radius as business grows. Thank you.</h3>
+            </div>
+            
+        </div>
+    </body>
+</html>
